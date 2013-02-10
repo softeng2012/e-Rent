@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ActivityDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Project_2βActivityDiagarm" id="{UMLID=_CRNVUHB2EeKz_PniLHNYCw,JavaID=}" metadata="uml2-1.0" initialized="true" scrolledX="-5" scrolledY="-5" tag="10" key="32303037303632392050726F6A6563742032">
+  <children xsi:type="editmodel:ActivityActivityEditModel" name="ΠΕΛΑΤΗΣ" size="1084,643" fontInfo="Omondo_Font_Default-8-1" id="{UMLID=_4ZufkHCFEeKz_PniLHNYCw}" itemName="ΠΕΛΑΤΗΣ" numberOfThread="1">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:StartEditModel" name="start" location="65,83" size="16,16" id="{UMLID=_58LJwHCFEeKz_PniLHNYCw}" itemName="start">
+        <sourceConnections xsi:type="editmodel:TransitionEditModel" size="2,1" stereotype="" autoLocated="true" id="{UMLID=_GQFLYHCGEeKz_PniLHNYCw}" source="//@children.0/@children.0/@children.0" target="//@children.0/@children.0/@children.4" targetEnd="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1" label="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" eventName="" eventArgument="" condition="" action="">
+          <children xsi:type="editmodel:StateEndEditModel" location="16,8" attachSource="true"/>
+          <children xsi:type="editmodel:StateEndEditModel" location="0,11"/>
+          <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        </sourceConnections>
+      </children>
+      <children xsi:type="editmodel:LabelObjectEditModel" name="start" location="61,98" size="24,15" fontInfo="Omondo_Font_Default-9-0" description="Name" attachment="//@children.0/@children.0/@children.0"/>
+      <children xsi:type="editmodel:EndEditModel" targetConnections="//@children.0/@children.0/@children.5/@sourceConnections.0 //@children.0/@children.0/@children.9/@sourceConnections.0 //@children.0/@children.0/@children.10/@sourceConnections.0" name="end" location="788,92" size="20,20" id="{UMLID=_64oyAHCFEeKz_PniLHNYCw}" itemName="end"/>
+      <children xsi:type="editmodel:LabelObjectEditModel" name="end" location="788,112" size="21,15" fontInfo="Omondo_Font_Default-9-0" description="Name" attachment="//@children.0/@children.0/@children.2"/>
+      <children xsi:type="editmodel:ActivityEditModel" targetConnections="//@children.0/@children.0/@children.0/@sourceConnections.0" name="login" backgroundRGB="251,251,251" location="136,80" size="140,60" stereotype="" id="{UMLID=_BWoJIHCGEeKz_PniLHNYCw}" itemName="login">
+        <sourceConnections xsi:type="editmodel:TransitionEditModel" size="2,1" stereotype="" autoLocated="true" id="{UMLID=_G329EHCGEeKz_PniLHNYCw}" source="//@children.0/@children.0/@children.4" target="//@children.0/@children.0/@children.5" targetEnd="//@children.0/@children.0/@children.4/@sourceConnections.0/@children.1" label="//@children.0/@children.0/@children.4/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.0/@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" eventName="" eventArgument="" condition="" action="">
+          <children xsi:type="editmodel:StateEndEditModel" location="140,15" attachSource="true"/>
+          <children xsi:type="editmodel:StateEndEditModel" location="0,14"/>
+          <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        </sourceConnections>
+      </children>
+      <children xsi:type="editmodel:DecisionEditModel" targetConnections="//@children.0/@children.0/@children.4/@sourceConnections.0" name="check" backgroundRGB="251,251,251" location="338,81" size="30,30" id="{UMLID=_DqxWAHCGEeKz_PniLHNYCw}" itemName="check">
+        <sourceConnections xsi:type="editmodel:TransitionEditModel" name="false" size="2,1" stereotype="" autoLocated="true" id="{UMLID=_HmBDkHCGEeKz_PniLHNYCw}" source="//@children.0/@children.0/@children.5" target="//@children.0/@children.0/@children.2" targetEnd="//@children.0/@children.0/@children.5/@sourceConnections.0/@children.1" label="//@children.0/@children.0/@children.5/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.0/@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" eventName="false" eventArgument="" condition="" action="">
+          <children xsi:type="editmodel:StateEndEditModel" location="30,20" attachSource="true"/>
+          <children xsi:type="editmodel:StateEndEditModel" location="0,9"/>
+          <children xsi:type="editmodel:WireLabelEditModel" name="false" size="24,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:TransitionEditModel" name="true" size="2,1" stereotype="" autoLocated="true" id="{UMLID=_I6fjMHCGEeKz_PniLHNYCw}" source="//@children.0/@children.0/@children.5" target="//@children.0/@children.0/@children.7" targetEnd="//@children.0/@children.0/@children.5/@sourceConnections.1/@children.1" label="//@children.0/@children.0/@children.5/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.0/@children.5/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan" eventName="true" eventArgument="" condition="" action="">
+          <children xsi:type="editmodel:StateEndEditModel" location="11,30" attachSource="true"/>
+          <children xsi:type="editmodel:StateEndEditModel" location="17,0"/>
+          <children xsi:type="editmodel:WireLabelEditModel" name="true" size="19,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        </sourceConnections>
+      </children>
+      <children xsi:type="editmodel:LabelObjectEditModel" name="check" location="337,111" size="32,15" fontInfo="Omondo_Font_Default-9-0" description="Name" attachment="//@children.0/@children.0/@children.5"/>
+      <children xsi:type="editmodel:MergeEditModel" targetConnections="//@children.0/@children.0/@children.5/@sourceConnections.1" backgroundRGB="251,251,251" location="332,397" size="30,30" id="{UMLID=_FhkfkHCGEeKz_PniLHNYCw}">
+        <sourceConnections xsi:type="editmodel:TransitionEditModel" size="2,1" stereotype="" autoLocated="true" id="{UMLID=_QgiukHCGEeKz_PniLHNYCw}" source="//@children.0/@children.0/@children.7" target="//@children.0/@children.0/@children.9" targetEnd="//@children.0/@children.0/@children.7/@sourceConnections.0/@children.1" label="//@children.0/@children.0/@children.7/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.0/@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" eventName="" eventArgument="" condition="" action="">
+          <children xsi:type="editmodel:StateEndEditModel" location="30,12" attachSource="true"/>
+          <children xsi:type="editmodel:StateEndEditModel" location="0,68"/>
+          <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:TransitionEditModel" size="2,1" stereotype="" autoLocated="true" id="{UMLID=_RSNcEHCGEeKz_PniLHNYCw}" source="//@children.0/@children.0/@children.7" target="//@children.0/@children.0/@children.10" targetEnd="//@children.0/@children.0/@children.7/@sourceConnections.1/@children.1" label="//@children.0/@children.0/@children.7/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.0/@children.7/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan" eventName="" eventArgument="" condition="" action="">
+          <children xsi:type="editmodel:StateEndEditModel" location="20,30" attachSource="true"/>
+          <children xsi:type="editmodel:StateEndEditModel" location="0,10"/>
+          <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        </sourceConnections>
+      </children>
+      <children xsi:type="editmodel:LabelObjectEditModel" location="347,427" size="0,15" fontInfo="Omondo_Font_Default-9-0" description="Name" attachment="//@children.0/@children.0/@children.7"/>
+      <children xsi:type="editmodel:ActivityEditModel" targetConnections="//@children.0/@children.0/@children.7/@sourceConnections.0" name="Search" backgroundRGB="251,251,251" location="512,341" size="166,80" stereotype="" id="{UMLID=_KrTZgHCGEeKz_PniLHNYCw}" itemName="Search">
+        <sourceConnections xsi:type="editmodel:TransitionEditModel" size="2,1" stereotype="" autoLocated="true" id="{UMLID=_Ry5uUHCGEeKz_PniLHNYCw}" source="//@children.0/@children.0/@children.9" target="//@children.0/@children.0/@children.2" targetEnd="//@children.0/@children.0/@children.9/@sourceConnections.0/@children.1" label="//@children.0/@children.0/@children.9/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.0/@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" eventName="" eventArgument="" condition="" action="">
+          <children xsi:type="editmodel:StateEndEditModel" location="166,10" attachSource="true"/>
+          <children xsi:type="editmodel:StateEndEditModel" location="10,20"/>
+          <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        </sourceConnections>
+      </children>
+      <children xsi:type="editmodel:ActivityEditModel" targetConnections="//@children.0/@children.0/@children.7/@sourceConnections.1" name="request" backgroundRGB="251,251,251" location="650,510" size="169,88" stereotype="" id="{UMLID=_OZ9ckHCGEeKz_PniLHNYCw}" itemName="request">
+        <sourceConnections xsi:type="editmodel:TransitionEditModel" size="2,1" stereotype="" autoLocated="true" id="{UMLID=_STFqQHCGEeKz_PniLHNYCw}" source="//@children.0/@children.0/@children.10" target="//@children.0/@children.0/@children.2" targetEnd="//@children.0/@children.0/@children.10/@sourceConnections.0/@children.1" label="//@children.0/@children.0/@children.10/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.0/@children.10/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" eventName="" eventArgument="" condition="" action="">
+          <children xsi:type="editmodel:StateEndEditModel" location="147,0" attachSource="true"/>
+          <children xsi:type="editmodel:StateEndEditModel" location="9,20"/>
+          <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        </sourceConnections>
+      </children>
+    </children>
+  </children>
+  <diagramOptions xsi:type="options:ActivityDiagramOptions" level="0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="0,0" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:ActivityDiagramEditModel>

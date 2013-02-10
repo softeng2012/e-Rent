@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="rentClassDiagram" id="{UMLID=_509lMGr4EeKe7Zd16q_yIA,JavaID=rent}" metadata="uml2-1.0" initialized="true" scrolledY="41" tag="10" key="32303037303632392050726F6A6563742032">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="ΥΠΑΛΛΗΛΟΣ" location="46,4" size="216,347" timstampe="22" stereotype="" id="{UMLID=_ETk8UGr9EeKe7Zd16q_yIA,JavaID=rent/ΥΠΑΛΛΗΛΟΣ}" runTimeClassModel="δΙΑΧΕΙΡΙΣΤΗΣ,Get_Λιστα_μηχανων(),Set_Λιστα_αυτοκινητων(),getΠΕΛΑΤΗΣ(),Set_Κωδικος(),setΠΕΛΑΤΗΣ(Lrent.ΠΕΛΑΤΗΣ;),πΕΛΑΤΗΣ,Λιστα μηχανων,Get_Λιστα_αυτοκινητων(),Κωδικος,Get_Κωδικος(),Set_Λιστα_μηχανων(),getΔΙΑΧΕΙΡΙΣΤΗΣ(),setΔΙΑΧΕΙΡΙΣΤΗΣ(Lrent.ΔΙΑΧΕΙΡΙΣΤΗΣ;),Λιστα αυτοκινητων">
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,100">
+      <children xsi:type="editmodel:AttributeEditModel" name="Λιστα μηχανων" size="102,16" description="UML" id="{UMLID=_oMq3AGszEeKYe9h7jVH1WQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Κωδικος" size="69,16" description="UML" id="{UMLID=_Y32pIGszEeKYe9h7jVH1WQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Λιστα αυτοκινητων" size="119,16" description="UML" id="{UMLID=_fHgpUGszEeKYe9h7jVH1WQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="πΕΛΑΤΗΣ" size="86,21" id="{UMLID=_9CYvYGs4EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="δΙΑΧΕΙΡΙΣΤΗΣ" size="101,21" id="{UMLID=_AfVXYGs5EeKscYLqDQVt7w}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="156,200">
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Κωδικος" location="13,119" size="102,16" description="UML" id="{UMLID=_G13GgGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Λιστα_μηχανων" size="138,16" description="UML" id="{UMLID=_cDwAkGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getΠΕΛΑΤΗΣ" size="110,21" id="{UMLID=_9vK84Gs4EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Λιστα_αυτοκινητων" size="155,16" description="UML" id="{UMLID=_VVQIQGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Κωδικος" location="11,86" size="103,16" description="UML" id="{UMLID=_L9r78Gs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Λιστα_αυτοκινητων" size="156,16" description="UML" id="{UMLID=_R8SoYGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Λιστα_μηχανων" size="139,16" description="UML" id="{UMLID=_YxV0oGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setΠΕΛΑΤΗΣ" size="110,21" id="{UMLID=_9vJHsGs4EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getΔΙΑΧΕΙΡΙΣΤΗΣ" size="129,21" id="{UMLID=_Az-Koms5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setΔΙΑΧΕΙΡΙΣΤΗΣ" size="129,21" id="{UMLID=_Az9jkWs5EeKscYLqDQVt7w}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_AfUwUGs5EeKscYLqDQVt7w}" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="υΠΑΛΛΗΛΟΣ" location="107,347" id="{UMLID=_AfVXY2s5EeKscYLqDQVt7w}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.0/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="128,358" size="18,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- υΠΑΛΛΗΛΟΣ" location="160,358" size="74,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="δΙΑΧΕΙΡΙΣΤΗΣ" location="91,0" id="{UMLID=_AfVXYGs5EeKscYLqDQVt7w}" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="128,387" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- δΙΑΧΕΙΡΙΣΤΗΣ" location="160,387" size="73,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ΑΥΤΟΚΙΝΗΤΟ" location="882,454" size="169,260" timstampe="11" stereotype="" id="{UMLID=_xNkp4Gr-EeKe7Zd16q_yIA,JavaID=rent/ΑΥΤΟΚΙΝΗΤΟ}" runTimeClassModel="Τιμη(),Get_ID(),Ονομα αυτοκινητου,Τιμη,getΠΕΛΑΤΗΣ(),setΠΕΛΑΤΗΣ(Lrent.ΠΕΛΑΤΗΣ;),ID,πΕΛΑΤΗΣ,Ονομα(),Set_ID(),Set_Τιμη()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,77">
+      <children xsi:type="editmodel:AttributeEditModel" name="ID" size="38,16" description="UML" id="{UMLID=_5Ssj0GszEeKYe9h7jVH1WQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="πΕΛΑΤΗΣ" size="86,21" id="{UMLID=_Dt3v8Gs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Ονομα αυτοκινητου" size="122,16" description="UML" id="{UMLID=_EwSBcGs0EeKYe9h7jVH1WQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Τιμη" size="49,16" description="UML" id="{UMLID=_QVfxEGs0EeKYe9h7jVH1WQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,136">
+      <children xsi:type="editmodel:MethodEditModel" name="Set_ID" size="71,16" description="UML" id="{UMLID=_GboeEGs2EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setΠΕΛΑΤΗΣ" size="110,21" id="{UMLID=_EDZ7EGs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Τιμη" size="82,16" description="UML" id="{UMLID=_I1tT0Gs2EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Ονομα" size="72,16" description="UML" id="{UMLID=_5KsMcGs1EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_ID" size="72,16" description="UML" id="{UMLID=_yCtdIGs1EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Τιμη" size="60,16" description="UML" id="{UMLID=_qgbXcGs1EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getΠΕΛΑΤΗΣ" size="110,21" id="{UMLID=_EDbwQGs5EeKscYLqDQVt7w}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_Dt3I4Gs5EeKscYLqDQVt7w}" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="αΥΤΟΚΙΝΗΤΟ" location="10,0" id="{UMLID=_Dt4XAGs5EeKscYLqDQVt7w}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.1/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="867,433" size="18,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- αΥΤΟΚΙΝΗΤΟ" location="899,433" size="72,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="πΕΛΑΤΗΣ" location="177,406" id="{UMLID=_Dt3v8Gs5EeKscYLqDQVt7w}" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="782,453" size="18,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-12.0" distanceFromWire="22.0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- πΕΛΑΤΗΣ" location="674,417" size="58,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ΜΗΧΑΝΗ" location="924,154" size="169,260" timstampe="13" stereotype="" id="{UMLID=_zpItYGr-EeKe7Zd16q_yIA,JavaID=rent/ΜΗΧΑΝΗ}" runTimeClassModel="Τιμη(),Get_ID(),Τιμη,Ονομα μηχανης,getΠΕΛΑΤΗΣ(),setΠΕΛΑΤΗΣ(Lrent.ΠΕΛΑΤΗΣ;),ID,πΕΛΑΤΗΣ,Ονομα(),Set_ID(),Set_Τιμη()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,77">
+      <children xsi:type="editmodel:AttributeEditModel" name="Ονομα μηχανης" size="104,16" description="UML" id="{UMLID=_IXxFgGs0EeKYe9h7jVH1WQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Τιμη" size="49,16" description="UML" id="{UMLID=_aJ-i4Gs0EeKYe9h7jVH1WQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="πΕΛΑΤΗΣ" size="86,21" id="{UMLID=_EwXHsGs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ID" size="38,16" description="UML" id="{UMLID=_3cFAcGszEeKYe9h7jVH1WQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,136">
+      <children xsi:type="editmodel:MethodEditModel" name="getΠΕΛΑΤΗΣ" size="110,21" id="{UMLID=_FIeFsWs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Τιμη" size="60,16" description="UML" id="{UMLID=_sLzUIGs1EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setΠΕΛΑΤΗΣ" size="110,21" id="{UMLID=_FIc3kGs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Set_ID" size="71,16" description="UML" id="{UMLID=_ALgj0Gs2EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Τιμη" size="82,16" description="UML" id="{UMLID=_EocpMGs2EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Ονομα" size="72,16" description="UML" id="{UMLID=_60L50Gs1EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_ID" size="72,16" description="UML" id="{UMLID=_1D1EwGs1EeKqUudCzSDxGQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_EwWgoGs5EeKscYLqDQVt7w}" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="μΗΧΑΝΗ" location="0,129" id="{UMLID=_EwXuwGs5EeKscYLqDQVt7w}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.2/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="899,290" size="18,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- μΗΧΑΝΗ" location="868,262" size="49,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="πΕΛΑΤΗΣ" location="177,251" id="{UMLID=_EwXHsGs5EeKscYLqDQVt7w}" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="674,290" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- πΕΛΑΤΗΣ" location="674,262" size="58,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Server" location="378,490" size="169,224" timstampe="11" stereotype="" id="{UMLID=_VyyyIGsyEeKYe9h7jVH1WQ,JavaID=rent/Server}" runTimeClassModel="δΙΑΧΕΙΡΙΣΤΗΣ,Get_Εκτυπωση(),Get_Στατιστικα(),Εκτυπωση,Set_Εκτυπωση(),getΔΙΑΧΕΙΡΙΣΤΗΣ(),Set_Στατιστικα(),Στατιστικα,setΔΙΑΧΕΙΡΙΣΤΗΣ(Lrent.ΔΙΑΧΕΙΡΙΣΤΗΣ;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,59">
+      <children xsi:type="editmodel:AttributeEditModel" name="Στατιστικα" size="77,16" description="UML" id="{UMLID=_jhY-MGs0EeKYe9h7jVH1WQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="δΙΑΧΕΙΡΙΣΤΗΣ" size="101,21" id="{UMLID=_G03WEGs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Εκτυπωση" size="81,16" description="UML" id="{UMLID=_mqQzoGs0EeKYe9h7jVH1WQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,118">
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Εκτυπωση" size="114,16" description="UML" id="{UMLID=_7VD80Gs2EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Στατιστικα" size="110,16" description="UML" id="{UMLID=_AorLgGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Στατιστικα" size="111,16" description="UML" id="{UMLID=_-QOtcGs2EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Εκτυπωση" size="115,16" description="UML" id="{UMLID=_2lw8IGs2EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getΔΙΑΧΕΙΡΙΣΤΗΣ" size="129,21" id="{UMLID=_HJuLwGs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setΔΙΑΧΕΙΡΙΣΤΗΣ" size="129,21" id="{UMLID=_HJs9oGs5EeKscYLqDQVt7w}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_G02vAGs5EeKscYLqDQVt7w}" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.0/@children.1" label="//@children.3/@sourceConnections.0/@children.2" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="server" location="0,87" id="{UMLID=_G039IGs5EeKscYLqDQVt7w}" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.3/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="353,584" size="18,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- server" location="332,556" size="39,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="δΙΑΧΕΙΡΙΣΤΗΣ" location="183,169" id="{UMLID=_G03WEGs5EeKscYLqDQVt7w}" multiplicityLabel="//@children.3/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.3/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="252,584" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- δΙΑΧΕΙΡΙΣΤΗΣ" location="252,556" size="73,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.3/@sourceConnections.0" name="ΔΙΑΧΕΙΡΙΣΤΗΣ" location="62,408" size="183,257" timstampe="13" stereotype="" id="{UMLID=_uPSgwGszEeKYe9h7jVH1WQ,JavaID=rent/ΔΙΑΧΕΙΡΙΣΤΗΣ}" runTimeClassModel="Κωδικος,Get_Κωδικος(),Εκδωση_τιμολογιου(),Set_Κωδικος(),getΥΠΑΛΛΗΛΟΣ(),server,setServer(Lrent.Server;),υΠΑΛΛΗΛΟΣ,getServer(),setΥΠΑΛΛΗΛΟΣ(Lrent.ΥΠΑΛΛΗΛΟΣ;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,64">
+      <children xsi:type="editmodel:AttributeEditModel" name="υΠΑΛΛΗΛΟΣ" size="102,21" id="{UMLID=_AfVXY2s5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="server" size="67,21" id="{UMLID=_G039IGs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Κωδικος" size="69,16" description="UML" id="{UMLID=_wspUAGszEeKYe9h7jVH1WQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,146">
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Κωδικος" size="103,16" description="UML" id="{UMLID=_OK0-YGs2EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Κωδικος" size="102,16" description="UML" id="{UMLID=_QhD18Gs2EeKqUudCzSDxGQ}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getΥΠΑΛΛΗΛΟΣ" size="130,21" id="{UMLID=_AzkiAWs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setΥΠΑΛΛΗΛΟΣ" size="130,21" id="{UMLID=_AzjT4Gs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getServer" size="94,21" id="{UMLID=_HJPqoGs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setServer" size="94,21" id="{UMLID=_HJN1cWs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Εκδωση_τιμολογιου" size="135,16" description="UML" id="{UMLID=_VmznwGs2EeKqUudCzSDxGQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.2/@sourceConnections.0" name="ΠΕΛΑΤΗΣ" location="490,32" size="177,416" timstampe="15" stereotype="" id="{UMLID=_2q1UQGs0EeKYe9h7jVH1WQ,JavaID=rent/ΠΕΛΑΤΗΣ}" runTimeClassModel="Τιμες,Get_Λιστα_μηχανων(),Set_Λιστα_αυτοκινητων(),getΥΠΑΛΛΗΛΟΣ(),Get_Τιμη(),μΗΧΑΝΗ,Λιστα μηχανων,Get_Λιστα_αυτοκινητων(),setΑΥΤΟΚΙΝΗΤΟ(Lrent.ΑΥΤΟΚΙΝΗΤΟ;),getΑΥΤΟΚΙΝΗΤΟ(),αΥΤΟΚΙΝΗΤΟ,setΜΗΧΑΝΗ(Lrent.ΜΗΧΑΝΗ;),Set_Λιστα_μηχανων(),Set_Τιμη(),Λιστα αυτοκινητων,υΠΑΛΛΗΛΟΣ,getΜΗΧΑΝΗ(),setΥΠΑΛΛΗΛΟΣ(Lrent.ΥΠΑΛΛΗΛΟΣ;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,123">
+      <children xsi:type="editmodel:AttributeEditModel" name="Λιστα αυτοκινητων" size="119,16" description="UML" id="{UMLID=_6H54EGs0EeKYe9h7jVH1WQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Λιστα μηχανων" size="102,16" description="UML" id="{UMLID=_-E7HQGs0EeKYe9h7jVH1WQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="υΠΑΛΛΗΛΟΣ" size="102,21" id="{UMLID=_9CXhQGs4EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="αΥΤΟΚΙΝΗΤΟ" size="100,21" id="{UMLID=_Dt4XAGs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="μΗΧΑΝΗ" size="77,21" id="{UMLID=_EwXuwGs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Τιμες" size="53,16" description="UML" id="{UMLID=_SWjNYGs1EeKqUudCzSDxGQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="156,246">
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Λιστα_αυτοκινητων" size="155,16" description="UML" id="{UMLID=_1AH-kGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Λιστα_μηχανων" size="139,16" description="UML" id="{UMLID=_4KoywGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Λιστα_μηχανων" size="138,16" description="UML" id="{UMLID=_7KHboGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getΥΠΑΛΛΗΛΟΣ" size="130,21" id="{UMLID=_9whnwGs4EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setΥΠΑΛΛΗΛΟΣ" size="130,21" id="{UMLID=_9wjc8Gs4EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Τιμη" size="83,16" description="UML" id="{UMLID=_987hgGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Λιστα_αυτοκινητων" size="156,16" description="UML" id="{UMLID=_wpLMcGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Set_Τιμη" size="82,16" description="UML" id="{UMLID=__7vXkGs3EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getΑΥΤΟΚΙΝΗΤΟ" size="128,21" id="{UMLID=_EC6y4Gs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setΑΥΤΟΚΙΝΗΤΟ" size="128,21" id="{UMLID=_EC8BAGs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getΜΗΧΑΝΗ" size="105,21" id="{UMLID=_FH3BsWs5EeKscYLqDQVt7w}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setΜΗΧΑΝΗ" size="105,21" id="{UMLID=_FH1zkWs5EeKscYLqDQVt7w}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_9CWTIGs4EeKscYLqDQVt7w}" source="//@children.5" target="//@children.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" label="//@children.5/@sourceConnections.0/@children.2" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="πΕΛΑΤΗΣ" location="0,159" id="{UMLID=_9CYvYGs4EeKscYLqDQVt7w}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.5/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="465,198" size="18,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- πΕΛΑΤΗΣ" location="425,170" size="58,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="υΠΑΛΛΗΛΟΣ" location="216,187" id="{UMLID=_9CXhQGs4EeKscYLqDQVt7w}" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="269,198" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- υΠΑΛΛΗΛΟΣ" location="269,170" size="74,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="0,42" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

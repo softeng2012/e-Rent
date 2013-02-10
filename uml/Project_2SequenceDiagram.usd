@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:SequenceDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Project_2SequenceDiagram" id="{UMLID=_CR-KUHB2EeKz_PniLHNYCw}" metadata="uml2-1.0" initialized="true" scrolledY="-5" tag="10" key="32303037303632392050726F6A6563742032">
+  <children xsi:type="editmodel:FrameEditModel" name="Interaction1" size="1134,737" id="{UMLID=_CSE4AHB2EeKz_PniLHNYCw}" type="Interaction">
+    <children xsi:type="editmodel:ActorEditModel" name="User" location="43,25" size="100,427" id="{UMLID=_OXswkHB3EeKz_PniLHNYCw}" itemName="User">
+      <children xsi:type="editmodel:ActivationEditModel" location="42,337" size="16,70" sequenceItemContainer="//@children.0/@children.0" length="70">
+        <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="Ελεγχος στατιστικων" id="{UMLID=_e0ufgHB-EeKz_PniLHNYCw}" source="//@children.0/@children.0/@children.0" target="//@children.0/@children.1/@children.0" targetEnd="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="" associatedSequenceNumber="1">
+          <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="98,14" fontInfo="Arial-8-0" labelValue="Ελεγχος στατιστικων"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1" size="6,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.0/@children.0/@sourceConnections.0/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+        </sourceConnections>
+      </children>
+    </children>
+    <children xsi:type="editmodel:InstanceEditModel" name="Server" location="693,25" size="135,498" description="Unspecified" id="{UMLID=_W50GIXB4EeKz_PniLHNYCw}" itemName="Server">
+      <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.0/@children.0/@sourceConnections.0" location="59,337" size="16,70" description="_e0vtoHB-EeKz_PniLHNYCw" sequenceItemContainer="//@children.0/@children.1" recursiveChildren="//@children.0/@children.1/@children.1" length="70">
+        <sourceConnections xsi:type="editmodel:SelfSequenceMessageEditModel" name="login" id="{UMLID=_QMYS4HB6EeKz_PniLHNYCw}" source="//@children.0/@children.1/@children.0" target="//@children.0/@children.1/@children.1" targetEnd="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="" associatedSequenceNumber="1.1">
+          <children xsi:type="editmodel:SequenceEndEditModel" location="0,20" attachSource="true" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="22,14" fontInfo="Arial-8-0" labelValue="login"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="1.1" size="15,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" location="16,0" userLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.0/@sourceConnections.0/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <bendpoints secondRelativeDimension="51,-9" firstRelativeDimension="58,0"/>
+          <bendpoints secondRelativeDimension="50,0" firstRelativeDimension="58,9"/>
+        </sourceConnections>
+      </children>
+      <children xsi:type="editmodel:RecursiveActivationEditModel" targetConnections="//@children.0/@children.1/@children.0/@sourceConnections.0" location="67,367" size="16,40" description="_QMZhAXB6EeKz_PniLHNYCw" sequenceItemContainer="//@children.0/@children.1" associatedActivation="//@children.0/@children.1/@children.0" relativeLocation="8,10"/>
+      <children xsi:type="editmodel:ActivationEditModel" location="59,428" size="16,50" sequenceItemContainer="//@children.0/@children.1" recursiveChildren="//@children.0/@children.1/@children.3" length="50">
+        <sourceConnections xsi:type="editmodel:SelfSequenceMessageEditModel" name="Στατιστικα" id="{UMLID=_TPdCUHB6EeKz_PniLHNYCw}" source="//@children.0/@children.1/@children.2" target="//@children.0/@children.1/@children.3" targetEnd="//@children.0/@children.1/@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.1/@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="" associatedSequenceNumber="2">
+          <children xsi:type="editmodel:SequenceEndEditModel" attachSource="true" userLabel="//@children.0/@children.1/@children.2/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.1/@children.2/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.2/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.1/@children.2/@sourceConnections.0/@children.0/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="48,14" fontInfo="Arial-8-0" labelValue="Στατιστικα"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" name="2" size="6,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <children xsi:type="editmodel:SequenceEndEditModel" location="16,0" userLabel="//@children.0/@children.1/@children.2/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.1/@children.2/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@children.2/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.1/@children.2/@sourceConnections.0/@children.1/@children.3">
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:LabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+            <children xsi:type="editmodel:MessageLabelEditModel" size="0,14" fontInfo="Arial-8-0"/>
+          </children>
+          <bendpoints secondRelativeDimension="51,-9" firstRelativeDimension="58,0"/>
+          <bendpoints secondRelativeDimension="50,0" firstRelativeDimension="58,9"/>
+        </sourceConnections>
+      </children>
+      <children xsi:type="editmodel:RecursiveActivationEditModel" targetConnections="//@children.0/@children.1/@children.2/@sourceConnections.0" location="67,438" size="16,40" description="_TPe3gHB6EeKz_PniLHNYCw" sequenceItemContainer="//@children.0/@children.1" associatedActivation="//@children.0/@children.1/@children.2" relativeLocation="8,10"/>
+    </children>
+    <children xsi:type="editmodel:NotepadEditModel" foregroundRGB="91,91,0" location="875,37" size="213,65" fontInfo="Arial-8-0" note="Εμφανιση στατιστικων"/>
+    <children xsi:type="editmodel:InstanceEditModel" name="ΥΠΑΛΛΗΛΟΣ" location="509,25" size="162,115" description="Unspecified" id="{UMLID=_es59EXB6EeKz_PniLHNYCw}" itemName="ΥΠΑΛΛΗΛΟΣ"/>
+    <children xsi:type="editmodel:InstanceEditModel" name="ΔΙΑΧΕΙΡΙΣΤΗΣ" location="331,25" size="151,115" description="Unspecified" id="{UMLID=_hgp3EXB6EeKz_PniLHNYCw}" itemName="ΔΙΑΧΕΙΡΙΣΤΗΣ"/>
+    <children xsi:type="editmodel:InstanceEditModel" name="ΠΕΛΑΤΗΣ" location="162,25" size="152,115" description="Unspecified" id="{UMLID=_nNO_YXB6EeKz_PniLHNYCw}" itemName="ΠΕΛΑΤΗΣ"/>
+  </children>
+  <diagramOptions xsi:type="options:SequenceDiagramOptions" level="0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="0,0" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:SequenceDiagramEditModel>
